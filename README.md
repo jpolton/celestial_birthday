@@ -4,6 +4,8 @@ For a given start date (e.g. a birthday) and a given period of interest (e.g. th
 
 This is useful if you feel like celebrating _extra_ birthdays, computed relative to other planet orbital periods.
 
+If you have more than one date you'd like to use as a start date, you can add them to the `birthdays.txt` file, one per line, in the format `YYYY-MM-DD`.
+
 ## Usage
 
 ```bash
