@@ -2,7 +2,7 @@
 
 For a given start date (e.g. a birthday) and a given period of interest (e.g. the next couple of years), this program computes the integer-orbit completion dates for all planets. It then identifies clusters of these events and plots them on a timeline.
 
-This is useful if you feel like celebrating birthdays, computed relative to other planet orbital periods.
+This is useful if you feel like celebrating _extra_ birthdays, computed relative to other planet orbital periods.
 
 ## Usage
 
