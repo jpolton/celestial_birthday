@@ -145,6 +145,13 @@ if __name__ == "__main__":
     default_date = "1975-01-01"
     try:
         with open("birthdays.txt", "r") as f:
+            """
+            file birthdays.txt has format:
+            YYYY-MM-DD
+            YYYY-MM-DD
+            with as many rows as you like.
+            If the file does not exist, the program reads default_date variable.
+            """
             birthdays = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         birthdays = [default_date]
